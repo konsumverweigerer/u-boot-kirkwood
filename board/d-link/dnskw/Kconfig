@@ -1,0 +1,26 @@
+if TARGET_DNS325
+
+config SYS_BOARD
+	default "dnskw"
+
+config SYS_VENDOR
+	default "d-link"
+
+config SYS_CONFIG_NAME
+	default "dnskw"
+
+endif
+
+if TARGET_DNS320
+
+config SYS_BOARD
+	default "dnskw"
+
+config SYS_VENDOR
+	default "d-link"
+
+config SYS_CONFIG_NAME
+	default "dnskw"
+
+endif
+
